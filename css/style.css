@@ -1,0 +1,34 @@
+.container {
+    margin: 0 0;
+    margin: 0 100px
+}
+
+.boba{
+    justify-content: center;
+    padding-top: 10px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    width: 160;
+    height: 120px;
+
+}
+.lox{
+    justify-content: center;
+    display: flex;
+    gap: 115px;
+}
+.number{
+margin: 0 0;
+}
+
+.raaw{
+   
+}
+.kek{
+    
+    height: 120px;
+}
+.lol{
+    padding: 0 0;
+}
