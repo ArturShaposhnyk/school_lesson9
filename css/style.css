@@ -1,34 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
-    margin: 0 0;
-    margin: 0 100px
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
 }
 
-.boba{
-    justify-content: center;
-    padding-top: 10px ;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    width: 160;
-    height: 120px;
-
-}
-.lox{
-    justify-content: center;
-    display: flex;
-    gap: 115px;
-}
-.number{
-margin: 0 0;
+.calendar {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 15px;
+  text-align: center;
 }
 
-.raaw{
-   
+.calendar th,
+.calendar td {
+  padding: 20px;
+  width: calc(100% / 10);
+  vertical-align: middle;
+  font-size: 1.5em;
 }
-.kek{
-    
-    height: 120px;
+
+.calendar th {
+  background-color: #f4f4f4;
+  font-weight: bold;
 }
-.lol{
-    padding: 0 0;
+
+.calendar td {
+}
+
+.day-box {
+  padding: 15px;
+}
+
+.image-cell {
+  text-align: center;
+  padding: 20px;
+}
+
+.calendar-image {
+  width: 100%;
+}
+.yel-pic {
+  border-radius: 20%;
+  background-color: #ffe646;
+}
+.orange-pic {
+  border-radius: 20%;
+  background-color: #ffae18;
+}
+.pink-pic {
+  border-radius: 20%;
+  background-color: #fc7fcc;
+}
+.purple-pic {
+  border-radius: 20%;
+  background-color: #fb287b;
+}
+.loxi {
+  height: 100px;
 }
